@@ -12,26 +12,26 @@ const router = new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/vue-stagram',
       redirect: '/me'
     },
     {
-      path: '/me',
+      path: '/vue-stagram/me',
       name: 'MyInfo',
       component: MyInfo
     },
     {
-      path: '/feeds',
+      path: '/vue-stagram/feeds',
       name: 'MyFeed',
       component: MyFeed
     },
     {
-      path: '/search',
+      path: '/vue-stagram/search',
       name: 'TagSearch',
       component: TagSearch
     },
     {
-      path: '/login',
+      path: '/vue-stagram/login',
       name: 'Login',
       component: Login
     }
